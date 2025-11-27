@@ -81,7 +81,7 @@ type MatchInfo = {
   gameNumber: number | null;
   tiebreakerNumber: number | null;
 
-  /** @deprecated since version 7.1.1. use sessionId instead */
+  /** @deprecated since version 7.2.0. use sessionId instead */
   matchId: string | null;
 };
 
